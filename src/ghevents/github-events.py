@@ -29,8 +29,8 @@ def main():
 	print('running main')
 	print(GHUSER)
 	print(url)
-	blah=retrieve_events(url)
-	print_events(blah)
+	events=retrieve_events(url)
+	print_events(events)
 
 if __name__ == "__main__":
 	main()
